@@ -1,7 +1,7 @@
 name: flags
-description: A new Flutter project.
+description: 250+ flags to use in you dream project, with just a single line of code.
 version: 0.0.1
-homepage:
+homepage: https://github.com/3kdeveloper/flags.git
 
 environment:
   sdk: ">=2.17.6 <3.0.0"
@@ -19,12 +19,5 @@ dev_dependencies:
 
 flutter:
 
-  # assets:
-  #   - images/a_dot_burr.jpeg
-
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
+  assets:
+    - assets/flags/
