@@ -1,39 +1,68 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Why flags?
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
+flags provides more then 250 countries flags in one place. It provides you easy way to add country flags in your project.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
+## Usage ##
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+To use this library in your code:
 
-## Features
+* add a dependency in your `pubspec.yaml` :
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+  ```yaml
+  dependencies:
+    flags:
+  ```
 
-## Getting started
+* add import in your `dart` code:
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+  ```dart
+  import 'package:flags/flags.dart';
 
-## Usage
+# FlagIcons
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+The following example illustrates how to use flag icons.
 
+
+<img src="https://user-images.githubusercontent.com/77343380/188069059-a44068f6-9bf4-4054-9971-49131dfe1d9e.png" alt="Flag Demo Screen"
+     width="250" height="500"> 
 ```dart
-const like = 'sample';
+
+  Flag(Flags.pakistan),
+  Flag(Flags.indonesia),
+  Flag(Flags.india),
+  Flag(Flags.afghanistan),
+  Flag(Flags.bangladesh),
+
 ```
 
-## Additional information
+The flag icons pack includes the following properties.
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+| Property                       | Type              |
+| -------------------------------| ----------------- |
+| key:                           | key               |
+| matchTextDirection:            | bool              |
+| width:                         | double            |
+| height:                        | double            |
+| placeholderBuilder:            | Widget            |
+| colorBlendMode:                | BlendMode         |
+| fit:                           | BoxFit            |
+| alignment:                     | AlignmentGeometry |
+| allowDrawingOutsideViewBox:    | bool              |
+| excludeFromSemantics:          | bool              |
+| clipBehavior:                  | Clip              |
+| cacheColorFilter:              | bool              |
+| theme:                         | SvgTheme          |
+
+
+# Contributors
+
+[<img src="https://user-images.githubusercontent.com/77343380/188069250-ca69cf6a-6ac9-4203-83e9-b847de258abb.png" alt="3kdeveloper"
+     width="100" height="100">](https://github.com/3kdeveloper)
+
+# Report bugs or issues
+
+You are welcome to open a *[ticket](https://github.com/3kdeveloper/flags/issues)* on github if any problems arise. New ideas are always welcome.
+
+# Copyright and License
+
+>Copyright © 2022 **[3kdveloper](https://github.com/3kdeveloper)**. Licensed under the *[MIT LICENSE](https://github.com/3kdeveloper/flags/blob/main/LICENSE)*.
