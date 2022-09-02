@@ -16,7 +16,7 @@ To use this library in your code:
 * add import in your `dart` code:
 
   ```dart
-  import 'package:countries_flag/flags.dart';
+  import 'package:countries_flag/countries_flag.dart';
 
 # FlagIcons
 
