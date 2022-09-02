@@ -1,4 +1,4 @@
-import 'package:flags/flags.dart';
+import 'package:countries_flag/flags.dart';
 import 'package:flutter/material.dart';
 
 void main() {

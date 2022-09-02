@@ -1,6 +1,6 @@
-# Why flags?
+# Why Countries Flag?
 
-flags provides more then 250 countries flags in one place. It provides you easy way to add country flags in your project.
+Countries Flag provides more then 250 countries flags in one place. It provides you easy way to add country flags in your project.
 
 ## Usage ##
 
@@ -10,13 +10,13 @@ To use this library in your code:
 
   ```yaml
   dependencies:
-    flags:
+    countries_flag:
   ```
 
 * add import in your `dart` code:
 
   ```dart
-  import 'package:flags/flags.dart';
+  import 'package:countries_flag/flags.dart';
 
 # FlagIcons
 

@@ -1,3 +1,3 @@
 library flags;
 
-export 'src/flag.dart';
+export 'src/countries_flag.dart';
