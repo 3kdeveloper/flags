@@ -23,7 +23,7 @@ class Flag extends SvgPicture {
           key: key,
           flagName!,
           matchTextDirection: matchTextDirection,
-          package: 'flags',
+          package: 'countries_flag',
           height: height,
           width: width,
           placeholderBuilder: placeholderBuilder,
