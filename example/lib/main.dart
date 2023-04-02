@@ -12,14 +12,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flags',
+      title: 'Countries Flag',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Flags'),
+          title: const Text('Countries Flag'),
           centerTitle: true,
         ),
         body: Padding(
@@ -29,35 +29,33 @@ class MyApp extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               SizedBox(
-                height: 150,
+                height: 100,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    Expanded(child: CountriesFlag(Flags.pakistan, width: 50)),
+                    const SizedBox(width: 10),
                     Expanded(
-                      child: Flag(Flags.pakistan, height: 150),
+                      child: CountriesFlag(Flags.indonesia, width: 50),
                     ),
                     const SizedBox(width: 10),
                     Expanded(
-                      child: Flag(Flags.indonesia, height: 150),
-                    ),
-                    const SizedBox(width: 10),
-                    Expanded(
-                      child: Flag(Flags.india, height: 150),
+                      child: CountriesFlag(Flags.india, width: 50),
                     ),
                   ],
                 ),
               ),
               Expanded(
-                child: Flag(Flags.pakistan, height: 150),
+                child: CountriesFlag(Flags.pakistan, width: 200, height: 200),
               ),
               const SizedBox(width: 10),
               Expanded(
-                child: Flag(Flags.indonesia, height: 150),
+                child: CountriesFlag(Flags.indonesia, width: 200, height: 200),
               ),
               const SizedBox(width: 10),
               Expanded(
-                child: Flag(Flags.india, height: 150),
+                child: CountriesFlag(Flags.india, width: 200, height: 200),
               ),
             ],
           ),
