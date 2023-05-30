@@ -236,6 +236,9 @@ class Flags {
   // Estonia Flag
   static const estonia = 'assets/flags/estonia.svg';
 
+  // Eswatini Flag
+  static const eswatini = 'assets/flags/eswatini.svg';
+
   // Ethiopia Flag
   static const ethiopia = 'assets/flags/ethiopia.svg';
 
